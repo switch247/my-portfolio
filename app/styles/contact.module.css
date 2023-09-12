@@ -1,0 +1,150 @@
+.contact {
+  padding: 100px 140px 140px 140px;
+  color: var(--text-white);
+}
+.contact span {
+  cursor: pointer;
+  color: var(--purple-main);
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.contact p {
+  font-size: 1rem;
+  padding-bottom: 35px;
+  line-height: 27px;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+.form .input {
+  color: black;
+  background-color: #e8f0fe !important;
+  border: 1px solid white;
+  padding: 10px;
+  width: 70%;
+  font-size: 1.1rem;
+}
+
+.form .input:focus {
+  background-color: #e8f0fe;
+  outline: none;
+}
+.form textarea {
+  width: 70%;
+  color: black;
+  border: 1px solid white;
+  background-color: #e8f0fe;
+  padding: 10px 10px 20px 10px;
+  font-size: 1.2rem;
+  font-family: inherit;
+}
+
+.form textarea:focus {
+  background-color: #e8f0fe;
+  outline: none;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.btn {
+  padding: 15px 40px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  background-color: #623686;
+  color: var(--text-white);
+  width: 20%;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.btn:hover {
+  background-color: #6d20c5d7;
+  border-color: #6d20c5d7;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 767px) {
+  .contact {
+    padding: 100px 50px 50px 50px;
+  }
+  .conatct h2 {
+    padding-top: 100px;
+  }
+
+  .form .input {
+    width: 100%;
+    color: black;
+  }
+
+  .form textarea {
+    width: 100%;
+    color: black;
+  }
+  .btn {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .contact {
+    padding: 80px 50px 100px 50px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1400px) {
+  .btn {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1800px) {
+  .contact {
+    padding: 150px 250px 380px 250px;
+  }
+  .conatct h2 {
+    font-size: 4rem;
+  }
+  .contact p {
+    font-size: 1.6rem;
+  }
+  .form input {
+    font-size: 1.6rem;
+    padding: 40px 25px;
+  }
+  .form textarea {
+    font-size: 1.6rem;
+    padding: 20px 20px 30px 20px;
+  }
+  .btn {
+    font-size: 1.6rem;
+    padding: 25px 40px;
+    width: 15%;
+  }
+}
