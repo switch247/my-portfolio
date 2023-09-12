@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <title>switch247</title>
+        <title>Abel Bekele Meaza</title>
         {/* <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID} /> */}
       </head>
 
