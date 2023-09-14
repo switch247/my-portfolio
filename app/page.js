@@ -4,7 +4,7 @@ import Script from 'next/script'
 
 
 export default function Home() {
-   const GA_MEASUREMENT_ID = "G-Y26H3HW1BM" 
+   const GA_MEASUREMENT_ID = "G-VDW1B4MTPW" 
 
   return (
     <main>
@@ -16,7 +16,7 @@ export default function Home() {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
  
-          gtag('config', 'G-Y26H3HW1BM');
+          gtag('config', 'G-VDW1B4MTPW');
         `}
       </Script>
 
