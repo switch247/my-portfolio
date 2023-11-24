@@ -59,7 +59,7 @@
 
 ## About The Project
 
-[![My Porfoltio App][app-screenshot]](https://my-portfolio-mauve-alpha.vercel.app/)
+[![My Porfoltio App][app-screenshot]](https://abel-meaza.vercel.app/)
 My personal portfolio built with Next. It is fully responsive and features my projects and skills.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -77,7 +77,7 @@ My personal portfolio built with Next. It is fully responsive and features my pr
 
 ## Live Demo
 
-[Live Demo](https://my-portfolio-mauve-alpha.vercel.app/)
+[Live Demo](https://abel-meaza.vercel.app/)
 
 <!-- GETTING STARTED -->
 
@@ -117,22 +117,22 @@ npm run dev
 ## Usage
 
 The hero section of the app.
-<img src="public/Assests/readme/my-portfolio-homepage.jpg" alt="Image of the hero section of the app" />
+<img src="public/Assests/readme/my-portfolio-homepage.png" alt="Image of the hero section of the app" />
 
 The introduction part of the app.
-<img src="public/Assests/readme/portfolio-intro.jpg" alt="Image of the introduction section of the app" />
+<img src="public/Assests/readme/portfolio-intro.png" alt="Image of the introduction section of the app" />
 
 The about page of the app.
-<img src="public/Assests/readme/portfolio-about-page.jpg" alt="Image of the about page of the app" />
+<img src="public/Assests/readme/portfolio-about-page.png" alt="Image of the about page of the app" />
 
 The projects page of the app.
-<img src="public/Assests/readme/portfolio-projects-page.jpg" alt="Image of the projects of the app" />
+<img src="public/Assests/readme/portfolio-projects-page.png" alt="Image of the projects of the app" />
 
 The project details page.
-<img src="public/Assests/readme/portfolio-projects-details-page.jpg" alt="Image of the projects details of the app" />
+<img src="public/Assests/readme/portfolio-projects-details-page.png" alt="Image of the projects details of the app" />
 
 Contact form
-<img src="public/Assests/readme/portfolio-contact-page.jpg
+<img src="public/Assests/readme/portfolio-contact-page.png
 " alt="Image of conatct form" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

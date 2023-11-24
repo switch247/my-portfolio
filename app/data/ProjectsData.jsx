@@ -1,29 +1,29 @@
 const projectsData = [
   {
     id: 1,
-    title: "Manga Verse",
-    githubLink: "https://github.com/Ree-m/manga-verse",
-    demoLink: "https://manga-verse-beta.vercel.app/",
+    title: "Amdb",
+    githubLink: "https://github.com/switch247/amdb",
+    demoLink: "https:// ",
     description:
-      "Introducing Manga Verse, a full stack manga viewing app that prioritizes browsing manga and provides an immersive reading experience. With technologies like Next.js, Express.js, MongoDB, and Puppeteer, Manga Verse incorporates a microservice architecture. Users can enjoy seamless manga reading, user authentication, manga filtering, bookmarking, and access to detailed manga information. The app aims to continually improve by implementing server-side rendering, enhancing dynamic filtering, and delivering an optimized user experience. Immerse yourself in the captivating world of manga with Manga Verse.",
-    ImageSrc: `/Assests/manga-verse/manga-verse-home-page.jpg`,
+      "AMDB is a sleek web application built with Next.js, offering a comprehensive database for anime enthusiasts. It provides detailed information about favorite and trending anime series, all within a seamless and responsive user experience. With its intuitive interface and robust search capabilities, AMDB empowers users to explore a vast collection of anime titles effortlessly.",
+    ImageSrc: `/Assests/Amdb/amdb.png`,
     sections: [
       {
         title: "Introduction",
         content: [
-          "Introducing Manga Verse, a full stack manga viewing app that prioritizes browsing manga and provides an immersive reading experience. With technologies like Next.js, Express.js, MongoDB, and Puppeteer, Manga Verse incorporates a microservice architecture. Users can enjoy seamless manga reading, user authentication, manga filtering, bookmarking, and access to detailed manga information. The app aims to continually improve by implementing server-side rendering, enhancing dynamic filtering, and delivering an optimized user experience. Immerse yourself in the captivating world of manga with Manga Verse.",
+          "AMDB is a sleek web application built with Next.js, offering a comprehensive database for anime enthusiasts. It provides detailed information about favorite and trending anime series, all within a seamless and responsive user experience. With its intuitive interface and robust search capabilities, AMDB empowers users to explore a vast collection of anime titles effortlessly.",
         ],
       },
       {
         title: "Technologies Used",
         content: [
           "Next.js",
-          "Express.js",
-          "Node.js",
-          "MongoDB",
-          "Puppeteer",
+          // "Express.js",
+          // "Node.js",
+          // "MongoDB",
+          // "Puppeteer",
           "Jikan API",
-          "Render",
+          "vercel",
         ],
       },
       {
@@ -46,14 +46,11 @@ const projectsData = [
           "These key features prioritize the manga reading aspect of the app, ensuring users can enjoy a user-friendly and personalized experience while exploring, filtering, bookmarking, and reading manga chapters effortlessly.",
         ],
         images: [
-          "/Assests/manga-verse/manga-verse-chapters-list.jpg",
-          "/Assests/manga-verse/manga-verse-chapter-page.jpg",
-          "/Assests/manga-verse/manga-verse-login.jpg",
-          "/Assests/manga-verse/manga-verse-genres.jpg",
-          "/Assests/manga-verse/manga-verse-bookmark-page.jpg",
-          "/Assests/manga-verse/manga-verse-manga-page.jpg",
-          "/Assests/manga-verse/manga-verse-search.jpg",
-          "/Assests/manga-verse/manga-verse-new-manga.jpg",
+          "/Assests/Amdb/amdb.png",
+          "/Assests/Amdb/amdb2.png",
+          "/Assests/Amdb/amdb3.png",
+          "/Assests/Amdb/amdb4.png",
+
         ],
       },
       {
@@ -86,128 +83,84 @@ const projectsData = [
       },
     ],
   },
-  {
-    id: 2,
-    title: "Skinology",
-    githubLink: "https://github.com/Ree-m/skinology-ecommerce-app",
-    demoLink: "https://skinology.vercel.app/",
-    description:
-      "Skinology is a skincare e-commerce app that offers a seamless shopping experience for users. With its intuitive interface and comprehensive features, users can browse, search, save their favorite skincare products effortlessly. The app incorporates a scalable architecture, utilizing technologies such as React, Express, MongoDB, and Node.js. Skinology includes key features like admin interface for product management, user authentication, cart functionality, detailed product pages, search capabilities, and visually appealing carousels.",
-    ImageSrc: `/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`,
-    sections: [
-      {
-        title: "Introduction",
-        content: [
-          "Skinology is a skincare e-commerce app that offers a seamless shopping experience for users. With its intuitive interface and comprehensive features, users can browse, search, save their favorite skincare products effortlessly. The app incorporates a scalable architecture, utilizing technologies such as React, Express, MongoDB, and Node.js. Skinology includes key features like admin interface for product management, user authentication, cart functionality, detailed product pages, search capabilities, and visually appealing carousels.",
-        ],
-      },
-      {
-        title: "Technologies Used",
-        content: ["Express.js", "React.js", "Node.js", "MongoDB", "Render"],
-      },
-      {
-        title: "Implementation Details",
-        content: [
-          "The app follows an mvc architecture. The view is the client folder, the models and the controllers are in the api folder. The models and controllers each have a auth, cart and product files. The auth controller uses JWT,cookies and bcrypt to provide user auth. The product controller has functions for fetching products for users and for adding, editing, deleting for admins. The cart has functions for adding to cart, delteing from, updating quantity.",
 
-          'In the implementation of the app, a Model-View-Controller (MVC) architecture was adopted to ensure a clear separation of concerns and maintain code organization. The "view" component is represented by the client folder, while the "models" and "controllers" are in the api folder. Within the api folder, you\'ll find separate models and controllers for authentication, cart management, and product handling.',
 
-          "The authentication model and controller employ tools such as JWT (JSON Web Tokens), cookies, and bcrypt to ensure secure user authentication.",
 
-          "The product model and controller contain functions for both users and administrators. Users can retrieve product information, while administrators enjoy additional features such as adding, editing, and deleting products.",
+{
+  "id": 2,
+  "title": "Blogz",
+  "githubLink": "https://github.com/switch247/Blog-App-MERN-frontend/tree/back",
+  "demoLink": "https://bloghub-lcpx.onrender.com/",
+  "description": "Blogz is a web application designed for bloggers to create and share their content with a wide audience. It provides a user-friendly interface and essential features for managing blog posts. The app is built using modern technologies such as React, Express, MongoDB, and Node.js, ensuring a scalable and efficient platform for bloggers. Blogz includes features like user authentication, post management, search capabilities, and a visually appealing user interface.",
+  "ImageSrc": "/Assests/blogz/Screenshot 2023-08-18 135956.png",
+  "sections": [
+    {
+      "title": "Introduction",
+      "content": [
+        "Blogz is a platform that empowers bloggers to share their thoughts and ideas with the world. It offers a seamless and intuitive experience for both writers and readers. The application is built using a modern tech stack, including Express.js, React.js, Node.js, MongoDB, and more."
+      ]
+    },
+    {
+      "title": "Implementation Details",
+      "content": [
+        "The app follows a modular architecture, with the backend and frontend components neatly organized. The backend, powered by Node.js and Express, handles data management and user authentication. The frontend, built with React, provides a responsive and engaging user interface for creating and consuming blog content."
+      ]
+    },
+    {
+      "title": "Key Features",
+      "content": [
+        "1. User Authentication: Blogz implements secure user authentication using JSON Web Tokens (JWT) and bcrypt for password encryption. This ensures the protection of user accounts and their content.",
+        "2. Post Management: Bloggers can create, edit, and delete their blog posts using the intuitive interface provided by Blogz. The app offers a seamless writing and publishing experience.",
+        "3. Search Functionality: Readers can easily search for specific blog posts using the search feature, allowing them to discover content based on their interests.",
+        "4. Responsive Design: Blogz is designed to provide a consistent and enjoyable experience across various devices, including desktops, tablets, and mobile phones."
+      ],
+      "images": [
+        "/Assests/blogz/Screenshot 2023-08-18 135956.png",
+        "/Assests/blogz/Screenshot 2023-08-18 140241.png",
+        "/Assests/blogz/Screenshot 2023-08-18 140259.png",
+        "/Assests/blogz/Screenshot 2023-08-18 184420.png",
+      ]
+    },
+    {
+      "title": "Lessons Learned",
+      "content": [
+        "Building Blogz was a significant learning experience for me. It allowed me to deepen my understanding of full-stack development, user authentication, and data management. Working on this project also improved my skills in React and Express, enabling me to create a robust and user-friendly application."
+      ]
+    },
+    {
+      "title": "Future Improvement",
+      "content": [
+        "1. Social Sharing: Implement social sharing features to allow readers to easily share their favorite blog posts on social media platforms.",
+        "2. Comment System: Introduce a commenting system to enable readers to engage with the content and provide feedback to the authors.",
+        "3. Analytics Integration: Incorporate analytics tools to provide bloggers with insights into their audience and content performance.",
+        "4. Customization Options: Expand the platform by offering customization options for bloggers to personalize the appearance of their blogs."
+      ]
+    }
+  ]
+},
 
-          "By implementing the MVC architecture and dividing the app into distinct models and controllers, the project benefits from a well-organized and scalable codebase. This structured approach ensures efficient data flow and enhances the overall maintainability of the application.",
-        ],
-      },
-      {
-        title: "Key Features",
-        content: [
-          "1. Admin Interface: The app incorporates two interfaces - admin and user. The admin interface enables administrators to perform essential actions such as adding, editing, and deleting products, providing full control over the product inventory.",
-
-          "2. User Authentication: User authentication is implemented using JSON Web Tokens (JWT) and cookies. User passwords are securely encrypted using bcrypt and stored in the MongoDB database, ensuring the protection of user credentials.",
-
-          "3. Cart Functionality: Registered users can add products to their cart, delete items, and update quantities as needed. The total price of all products int the cart is shown at the bottom of the cart page.",
-
-          "4. Guest Cart: Non-registered users can also utilize a guest cart. This functionality is built using local storage, allowing guests to add items to their cart without requiring access to the app's database.",
-
-          "5. Products Page: Clicking on a specific product leads to the product page, where detailed information such as the product name, brand, price, ingredient list, and usage instructions are provided. Users can also add the product to their cart directly from this page.",
-
-          "6. Product Search: Users can easily search for products using the search bar located in the app's header. The search functionality allows users to search by brand name or product name, providing quick access to desired products.",
-
-          "7. Main Carousel: The app's homepage features a visually appealing carousel displaying skincare posters. This carousel enhances the aesthetic appeal of the app's design.",
-
-          '8. Best Products Carousel: The homepage also includes a carousel showcasing the best products. Right now, the carousel displays the oldest added products. However, in the future, I plan to implement a view system to highlight the most popular products. A "View All Products" button leads to a dedicated page where all the best products are displayed.',
-
-          '9. New Products: The homepage highlights 12 of the newest products in a grid layout. Clicking on the "View All Products" button directs users to a dedicated page showcasing all recently added products.',
-
-          "These key features offer an engaging and user-friendly experience, providing admin control, secure authentication, seamless cart functionality, detailed product pages, search capabilities, and visually appealing carousels to showcase the best and newest products.",
-        ],
-        images: [
-          "/Assests/skinology/skinology-admin-only.jpg",
-          "/Assests/skinology/skinology-auth-page.jpg",
-          "/Assests/skinology/skinology-user-cart.jpg",
-          "/Assests/skinology/skinology-guest-cart.jpg",
-          "/Assests/skinology/skinology-product-details-page.jpg",
-          "/Assests/skinology/skinology-search.jpg",
-          "/Assests/skinology/skinology-main-carousel.jpg",
-          "/Assests/skinology/skinology-best.jpg",
-          "/Assests/skinology/skinology-new-section.jpg",
-        ],
-      },
-      {
-        title: "Lessons Learned",
-        content: [
-          "This project was the one with the biggest learning curve for me. I entered with only a basic understanding of CRUD operations and being an absolute beginner in React. However, by the end, I had become much more comfortable with the fundamental concepts of React and CRUD.",
-
-          "Notably, this project marked my first experience working on a full-stack project independently from scratch. The hands-on nature of this proved to be a tremendous learning opportunity, it definitely highlighted the importance of practical application in deepening my understanding and skills.",
-
-          "One crucial lesson that emerged was the significance of state management. While I primarily lifted the state up in this project, there was a realization of the need for more advanced state management solutions like Context or Redux. This motivated me to explore and learn how to effectively use the Context API, unlocking more efficient and scalable state management techniques.",
-
-          "Additionally, I discovered the convenience of utilizing custom CSS properties for colors and fonts. By using custom CSS variables, I eliminated the repetition of typing hex values and font sizes repeatedly, resulting in more streamlined and maintainable styling practices.",
-
-          "Additionally by working on this project, I gained experience and confidence in implementing CRUD (Create, Read, Update, Delete) operations and full-stack development. This hands-on experience provided me with a deep understanding of the intricate components and their proper placement within the architecture.",
-
-          "This project has been instrumental in my growth as a developer. It expanded my knowledge of Express, React, state management, styling techniques, and overall full-stack development.",
-        ],
-      },
-      {
-        title: "Future Improvement",
-        content: [
-          "1. Add a Pop-up Notification: Enhance the app by displaying a pop-up notification when an item is added to the cart. This notification will provide a clear message and include options to view the cart or continue shopping, improving the user experience.",
-
-          "2. Implement Loading States: Improve the app's interface by adding loading states for actions such as data fetching or processing. These loading states will keep users informed about ongoing processes and provide a smoother user experience.",
-
-          "3. Introduce Category and Brand Filtering: Expand the filtering options by allowing users to filter products based on categories and brands. This enhancement will help users find specific products that match their preferences more effectively.",
-
-          "4. User Profile: Enhance the user profile feature in the app by expanding it to include more details about the user. This includes information such as name, email and profile picture. Additionally, enable users to delete their accounts within the app.",
-
-          "5. Pagination: Add pagination to the bets products page and new products page to increase performance.",
-        ],
-      },
-    ],
-  },
   {
     id: 3,
-    title: "Book Finder",
-    githubLink: "https://github.com/Ree-m/book-finder",
-    demoLink: "https://book-finder-tau.vercel.app/",
+    title: "Bookio",
+    githubLink: "https://github.com/switch247/Bookio",
+    demoLink: "https://bookio/",
     description: "",
-    ImageSrc: `/Assests/book-finder/book-finder-home.jpg`,
+    ImageSrc: `/Assests/bookio/bookio.png`,
     sections: [
       {
         title: "Introduction",
         content: [
-          "Introducing the book finder app! Built using React and powered by the Google Books API, this application offers a seamless and engaging experience for searching and exploring books. With its intuitive search function, users can easily find books based on various criteria such as title, author, or publishing date. Clicking on a specific book reveals comprehensive details on the book details page, including the cover image, title, summary, author, and publishing date.        ",
+          "Introducing the book finder app! Built using NextJs and powered by the Google Books API, this application offers a seamless and engaging experience for searching and exploring books. With its intuitive search function, users can easily find books based on various criteria such as title, author, or publishing date. Clicking on a specific book reveals comprehensive details on the book details page, including the cover image, title, summary, author, and publishing date.        ",
         ],
       },
       {
         title: "Technologies Used",
-        content: ["React", "Google books API", "Css", "Vercel"],
+        content: ["NextJs", "Google books API", "Css", "Vercel","docker"],
       },
       {
         title: "Implementation Details",
         content: [
-          "The app is built using React and utilizes the Google Books API to fetch book data. React provides a robust framework for building the user interface and managing component states, while the Google Books API serves as the source of book information.",
+          "The app is built using Nextjs and utilizes the Google Books API to fetch book data. NextJs provides a robust framework for building the user interface and managing component states, while the Google Books API serves as the source of book information.",
           "To implement the search function, the app sends search queries to the Google Books API and retrieves the corresponding search results. The search function is designed to allow users to search for books based on various criteria such as book title, author name, or publishing date.",
         ],
       },
@@ -217,12 +170,20 @@ const projectsData = [
           "1. Search Function: Users can utilize the search function to find books based on various criteria such as book title, author name, or publishing date. This feature enables users to easily discover specific books they are looking for.",
 
           "2. Book Details Page: Clicking on a particular book from the search results or any other section of the application leads to the book details page. On this page, users can view comprehensive information about the book, including the book cover, title, summary, author, and publishing date. This feature provides users with a comprehensive overview of the selected book.",
-
+          "3. Book filtering: filter search results by author title or genres",
+          "4. Bookmarking: you can your favorite books to your wishlist/bookmarks",
           "These features contribute to enhancing the user experience by enabling efficient book search and providing comprehensive details for each book within the application.",
         ],
         images: [
-          "/Assests/book-finder/bookfinder-search.jpg",
-          "/Assests/book-finder/book-finder-details-page.jpg",
+          "/public/Assets/bookio/bookio.png",
+          "/public/Assets/bookio/bookio1.png",
+          "/public/Assets/bookio/bookio2.png",
+          "/public/Assets/bookio/bookio3.png",
+          "/public/Assets/bookio/bookio4.png",
+          "/public/Assets/bookio/bookio5.png",
+          "/public/Assets/bookio/bookio6.png",
+          "/public/Assets/bookio/bookio7.png",
+
         ],
       },
       {
