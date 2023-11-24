@@ -144,13 +144,13 @@ const projectsData = [
     title: "Bookio",
     githubLink: "https://github.com/switch247/Bookio",
     demoLink: "https://bookio/",
-    description: "",
+    description: "Introducing the book finder app! Built using NextJs and powered by the Google Books API, this application offers a seamless and engaging experience for searching and exploring books. With its intuitive search function, users can easily find books based on various criteria such as title, author, or publishing date. Clicking on a specific book reveals comprehensive details on the book details page, including the cover image, title, summary, author, and publishing date.  ",
     ImageSrc: `/Assests/bookio/bookio.png`,
     sections: [
       {
         title: "Introduction",
         content: [
-          "Introducing the book finder app! Built using NextJs and powered by the Google Books API, this application offers a seamless and engaging experience for searching and exploring books. With its intuitive search function, users can easily find books based on various criteria such as title, author, or publishing date. Clicking on a specific book reveals comprehensive details on the book details page, including the cover image, title, summary, author, and publishing date.        ",
+          "Introducing the book finder app! Built using NextJs and powered by the Google Books API, this application offers a seamless and engaging experience for searching and exploring books. With its intuitive search function, users can easily find books based on various criteria such as title, author, or publishing date. Clicking on a specific book reveals comprehensive details on the book details page, including the cover image, title, summary, author, and publishing date.  ",
         ],
       },
       {
