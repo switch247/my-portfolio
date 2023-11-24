@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 import Stars from "../Stars";
 import styles from "../../styles/contact.module.css";
 import { useRouter } from "next/navigation";
+import toast from "react-hot-toast"
 
 // const Result = () => {
 //   const router = useRouter()
@@ -19,10 +20,10 @@ import { useRouter } from "next/navigation";
 const Contact = () => {
   const form = useRef();
   const [showResult, setShowResult] = useState(false);
-
+  const [sending,setSending] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
-
+    setSending(true)
     emailjs
       .sendForm(
         process.env.NEXT_PUBLIC_SERVICE_ID,
@@ -33,13 +34,18 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          toast.success("message sent")
+          // setShowResult(true);
         },
         (error) => {
+          toast.error("message not sent")
           console.log(error.text);
+          setShowResult(false);
         }
       );
     e.target.reset();
-    setShowResult(true);
+    setSending(false)
+    
   };
 
   return (
@@ -80,8 +86,9 @@ const Contact = () => {
               required
             />
             <textarea name="message" placeholder="Message" required />
-            <div className={styles.btnContainer}>
+            <div className={!sending && styles.btnContainer}>
               <input
+                // style={sending && {color:"red" } }
                 type="submit"
                 value="Send Message"
                 className={styles.btn}

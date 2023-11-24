@@ -4,6 +4,7 @@ import { Raleway } from "next/font/google";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import GoogleAnalytics from "./GoogleAnalytics";
+import ToasterContext from "./ToastContext"
 import { AppProgressBar as ProgressBar } from 'next-nprogress-bar';
 
 const raleway = Raleway({ subsets: ["latin"] });
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
           shallowRouting
         />
           <Header />
+          <ToasterContext />
           
           {children}
 
