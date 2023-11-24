@@ -14,7 +14,7 @@
 
   <h3 align="center">My Portfolio</h3>
 
-  <p align="center">
+  <!-- <p align="center">
     Welcome to Skinology, a fullstack ecommerce application.
     <br />
     <a href="https://github.com/Ree-m/skinology-ecommerce-app"><strong>Explore the docs »</strong></a>
@@ -25,7 +25,7 @@
     <a href="https://github.com/Ree-m/skinology-ecommerce-app/issues">Report Bug</a>
     ·
     <a href="https://github.com/Ree-m/skinology-ecommerce-app/issues">Request Feature</a>
-  </p>
+  </p> -->
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -166,7 +166,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Reem Bsrat - reembsrat@gmail.com
+Abel Bekele - abelbeworking245@gmail.com
 
 Project Link: [https://github.com/Ree-m/my-portfolio](https://my-portfolio-mauve-alpha.vercel.app/)
 
@@ -182,5 +182,5 @@ Project Link: [https://github.com/Ree-m/my-portfolio](https://my-portfolio-mauve
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[license-url]: https://github.com/Ree-m/my-portfolio/blob/main/LICENSE.txt
+[license-url]: https://github.com/switch247/my-portfolio/blob/main/LICENSE.txt
 [app-screenshot]: public/Assests/readme/my-portfolio-homepage.jpg
